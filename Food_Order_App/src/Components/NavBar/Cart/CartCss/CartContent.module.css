@@ -1,0 +1,39 @@
+.cart-modal{
+    position: fixed;
+    z-index: 100;
+    border: 1px solid white;
+    width: 50%;
+    top: 15vh;
+    left: 25%;
+    background-color: white;
+    animation: meals-appear 750ms ease-in-out forwards ;
+}
+
+/*7f2609*/
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+
+@keyframes meals-appear {
+    from {
+        opacity: 0;
+        transform: translateY(8rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+

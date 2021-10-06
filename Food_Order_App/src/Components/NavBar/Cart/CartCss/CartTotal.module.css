@@ -1,0 +1,17 @@
+.cart-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.cart-total h3{
+    margin: 0;
+    justify-content: center;
+
+}
+.cart-total span{
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;
+}

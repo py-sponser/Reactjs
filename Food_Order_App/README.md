@@ -1,4 +1,4 @@
-# Food Ordering App (Cart Logic only for now)
+# Food Ordering Simple Web App 
 
 # To run the application:
 - Change directory to Food_Order_App
